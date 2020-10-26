@@ -4,7 +4,7 @@ import "antd/dist/antd.css";
 import "./index.css";
 import logo from "./assets/logo.png";
 import headbackground from "./assets/headbackground.png";
-import { Layout, Menu, Typography, Button, Row, Col } from "antd";
+import { Layout, Menu, Typography, Row, Col } from "antd";
 
 const { Header, Content, Footer } = Layout;
 const { Title } = Typography;
@@ -69,21 +69,37 @@ ReactDOM.render(
         <Col span={12}>
           <div className="minilogobracket"></div>
           <div className="logobracketwrap">
-            <Title level={4}>Projects</Title>
-            <p>
-              Specific objectives to be determined and accomplishment. A direct
-              start to finish process.
-            </p>
+            <Row>
+              <Col span={12}>
+                <Title level={4}>Project</Title>
+                <p>
+                  Specific objectives to be determined and accomplishment. A direct
+                  start to finish process.
+                </p>
+              </Col>
+              <Col span={12}>
+                <p>(some kind of illustration here)</p>  
+              </Col>  
+            </Row>
+          
           </div>
         </Col>
         <Col span={12}>
           <div className="minilogobracket"></div>
           <div className="logobracketwrap">
-            <Title level={4}>Service Plans</Title>
-            <p>
-              More exploratory in nature, consistent progress and feedback over
-              time.
-            </p>
+            <Row>
+              <Col span={12}>
+                <Title level={4}>Plan</Title>
+                <p>
+                  More exploratory in nature, consistent progress and feedback over
+                  time.
+                </p>
+              </Col>
+              <Col span={12}>
+                <p>(some kind of illustration here)</p>  
+              </Col>  
+            </Row>
+          
           </div>
         </Col>
       </Row>
@@ -93,36 +109,43 @@ ReactDOM.render(
       <Row>
         <Col span={24}>
           <Title level={2}>Assessment</Title>
+          <p>In initiating either a project or service plan, profiling an organization's data and needs is crucial in determining direction and execution.</p>
         </Col>
-        <Col span={8}>
+        <Col span={6}>
+          <p>(some kind of illustration here)</p>
+        </Col>
+        <Col span={6}>
           <Title level={4}>Readiness Assessment</Title>
           <p>
             Our in-depth questionarre is the first step in getting an overview
             of data needs.
           </p>
         </Col>
-        <Col span={8}>
+        <Col span={6}>
           <Title level={4}>Organization Analysis</Title>
           <p>
             A further look helps to identify other opportunities for useful data
             interperetation.
           </p>
         </Col>
-        <Col span={8}>
+        <Col span={6}>
           <Title level={4}>Assessment/Analysis Output and Review</Title>
           <p>Direction is determined based off present data and discussion.</p>
         </Col>
-        <Col span={8}>
+        <Col span={6}>
           <Title level={4}>Priority Determination</Title>
           <p>Urgency, value, and implementation considerations.</p>
         </Col>
-        <Col span={8}>
+        <Col span={6}>
           <Title level={4}>Estimation</Title>
           <p>Clear, concise outline of services rendered.</p>
         </Col>
-        <Col span={8}>
+        <Col span={6}>
           <Title level={4}>Expectation Management</Title>
           <p>Maintaining scope. Work / Show process.</p>
+        </Col>
+        <Col span={6}>
+          <p>(some kind of illustration here)</p>
         </Col>
       </Row>
     </section>

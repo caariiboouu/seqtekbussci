@@ -4,8 +4,8 @@ body {
 img {
   width: 100%;
 }
-section: {
-  padding: 0 3% 2rem;
+section {
+  padding: 0 0 2rem;
 }
 h1.ant-typography,
 .ant-typography h1,
@@ -151,10 +151,9 @@ p {
 
 .logobracketwrap {
   position: relative;
-  margin: auto 0;
   width: 100%;
   z-index: 200;
-  padding: 1rem 3%;
+  padding: 1rem 6% 1rem 3%;
 }
 
 .ant-menu.ant-menu-dark,
@@ -190,7 +189,7 @@ p {
   font-style: italic;
 }
 
-.showcasesubline: {
+.showcasesubline {
   font-size: 3.3vw;
 }
 
