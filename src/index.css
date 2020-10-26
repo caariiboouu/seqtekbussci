@@ -1,0 +1,214 @@
+body {
+  background-color: #1c1c31;
+}
+img {
+  width: 100%;
+}
+section: {
+  padding: 0 3% 2rem;
+}
+h1.ant-typography,
+.ant-typography h1,
+h2.ant-typography,
+.ant-typography h2,
+h3.ant-typography,
+.ant-typography h3,
+h4.ant-typography,
+.ant-typography h4,
+h5.ant-typography,
+.ant-typography h5,
+h6.ant-typography,
+.ant-typography h6,
+p {
+  color: #fff;
+}
+
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+}
+
+.head {
+  position: relative;
+  padding: 0 2% 2rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head h1.ant-typography,
+.head .ant-typography h1 {
+  font-size: 5rem;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+[data-theme="dark"] .site-layout-content {
+  background: #141414;
+}
+[data-theme="dark"] .logo {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: #73ba4e !important;
+  color: #fff !important;
+}
+
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item,
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-submenu {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover {
+  background-color: #73ba4e59 !important;
+}
+
+.ant-menu-dark .ant-menu-item,
+.ant-menu-dark .ant-menu-item-group-title,
+.ant-menu-dark .ant-menu-item > a,
+.ant-menu-dark .ant-menu-item > span > a {
+  color: #73ba4e;
+}
+
+.lightened,
+.dimmed {
+  padding: 2rem 3%;
+}
+
+.lightened h1.ant-typography,
+.lightened .ant-typography h1,
+.lightened h2.ant-typography,
+.lightened .ant-typography h2,
+.lightened h3.ant-typography,
+.lightened .ant-typography h3,
+.lightened h4.ant-typography,
+.lightened .ant-typography h4,
+.lightened h5.ant-typography,
+.lightened .ant-typography h5,
+.lightened h6.ant-typography,
+.lightened .ant-typography h6,
+.lightened p {
+  color: #1c1c31 !important;
+}
+
+.dimmed {
+  background-color: #1c1c31;
+}
+
+.dimmed h1.ant-typography,
+.dimmed .ant-typography h1,
+.dimmed h2.ant-typography,
+.dimmed .ant-typography h2,
+.dimmed h3.ant-typography,
+.dimmed .ant-typography h3,
+.dimmed h4.ant-typography,
+.dimmed .ant-typography h4,
+.dimmed h5.ant-typography,
+.dimmed .ant-typography h5,
+.dimmed h6.ant-typography,
+.dimmed .ant-typography h6,
+.dimmed p {
+  color: #fff !important;
+}
+
+.logowrap {
+  max-width: 15rem;
+  margin-left: 4%;
+  position: relative;
+  z-index: 300;
+}
+
+.logobracket {
+  position: absolute;
+  top: 2rem;
+  margin: auto 2%;
+  width: 92%;
+  border: 0.4rem solid #fff;
+  border-bottom: none;
+  height: 3.5rem;
+  z-index: 200;
+}
+
+.minilogobracket {
+  position: relative;
+  margin: auto 0%;
+  width: 96%;
+  border: 0.3rem solid #fff;
+  border-bottom: none;
+  height: 1.5rem;
+  z-index: 200;
+  padding: 1rem 3%;
+}
+
+.logobracketwrap {
+  position: relative;
+  margin: auto 0;
+  width: 100%;
+  z-index: 200;
+  padding: 1rem 3%;
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub,
+.ant-layout-header {
+  background: transparent !important;
+}
+
+.ant-layout-header {
+  max-width: 30rem;
+  right: 0;
+  float: right;
+  width: 100%;
+  padding: 0;
+}
+
+.ant-layout-header ul {
+  float: right;
+}
+
+.seqgreen {
+  color: #73ba4e;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.showcasetitle {
+  margin-bottom: 0.1em;
+  font-size: 9vw !important;
+  font-style: italic;
+}
+
+.showcasesubline: {
+  font-size: 3.3vw;
+}
+
+.elevated {
+  position: relative;
+  z-index: 900;
+}
+
+.gradientoverlay {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(28, 28, 49, 1) 0%,
+    rgba(28, 28, 49, 0) 100%
+  );
+}
