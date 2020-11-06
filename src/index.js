@@ -9,8 +9,6 @@ import { Layout, Menu, Typography, Row, Col } from "antd";
 const { Header, Content, Footer } = Layout;
 const { Title } = Typography;
 
-
-
 ReactDOM.render(
   <Layout className="layout">
     <section
