@@ -9,8 +9,6 @@ import { Layout, Menu, Typography, Row, Col } from "antd";
 const { Header, Content, Footer } = Layout;
 const { Title } = Typography;
 
-
-
 ReactDOM.render(
   <Layout className="layout">
     <section
@@ -75,15 +73,14 @@ ReactDOM.render(
               <Col span={12}>
                 <Title level={4}>Project</Title>
                 <p>
-                  Specific objectives to be determined and accomplishment. A direct
-                  start to finish process.
+                  Specific objectives to be determined and accomplishment. A
+                  direct start to finish process.
                 </p>
               </Col>
               <Col span={12}>
-                <p>(some kind of illustration here)</p>  
-              </Col>  
+                <p>(some kind of illustration here)</p>
+              </Col>
             </Row>
-          
           </div>
         </Col>
         <Col span={12}>
@@ -93,15 +90,14 @@ ReactDOM.render(
               <Col span={12}>
                 <Title level={4}>Plan</Title>
                 <p>
-                  More exploratory in nature, consistent progress and feedback over
-                  time.
+                  More exploratory in nature, consistent progress and feedback
+                  over time.
                 </p>
               </Col>
               <Col span={12}>
-                <p>(some kind of illustration here)</p>  
-              </Col>  
+                <p>(some kind of illustration here)</p>
+              </Col>
             </Row>
-          
           </div>
         </Col>
       </Row>
@@ -111,7 +107,11 @@ ReactDOM.render(
       <Row>
         <Col span={24}>
           <Title level={2}>Assessment</Title>
-          <p>In initiating either a project or service plan, profiling an organization's data and needs is crucial in determining direction and execution.</p>
+          <p>
+            In initiating either a project or service plan, profiling an
+            organization's data and needs is crucial in determining direction
+            and execution.
+          </p>
         </Col>
         <Col span={6}>
           <p>(some kind of illustration here)</p>
